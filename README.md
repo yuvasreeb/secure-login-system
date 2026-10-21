@@ -80,22 +80,22 @@ The interface is split into two sides. The **left side** is the login and regist
 ### Login Page
 The login form with the SQL injection test button. All security checks show as pending, and the database panel shows only hashed passwords.
 
-![Login Page](screenshots/loginpage.png)
+![Login Page](loginpage.png)
 
 ### Successful Login and Dashboard
 After login, the dashboard confirms a secure login. Input validation, password hashing, and session status are marked as done, and the live server activity log shows every step.
 
-![Successful Login](screenshots/login.png)
+![Successful Login](login.png)
 
 ### Two-Factor Authentication Setup
 The Enable 2FA page with the setup key and the 6-digit authenticator code.
 
-![2FA Setup](screenshots/2FA.png)
+![2FA Setup](2FA.png)
 
 ### Session, Database and Server Activity
 The live activity log, bcrypt hashed passwords in the database (`$2b$12$...`), and the secure session cookie with `HttpOnly`, `SameSite=Lax`, and a 15-minute expiry.
 
-![Session and Database](screenshots/session.png)
+![Session and Database](session.png)
 
 ---
 
